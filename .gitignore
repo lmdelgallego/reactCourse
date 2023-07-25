@@ -7,6 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Yarn
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+
+
 node_modules
 dist
 dist-ssr
@@ -29,3 +35,7 @@ dist-ssr
 .env.test.local
 .env.production.local
 .env
+
+# Jest
+coverage
+
