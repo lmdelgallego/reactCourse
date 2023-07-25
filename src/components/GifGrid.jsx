@@ -1,6 +1,10 @@
 import React from 'react'
+import { getGifs } from '../helpers/getGifs';
 
-const GifGrid = ({ category}) => {
+const GifGrid = ({ category }) => {
+
+  getGifs(category);
+
   return (
     <>
       <div key={category}>
