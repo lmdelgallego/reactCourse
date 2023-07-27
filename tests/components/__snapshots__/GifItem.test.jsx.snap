@@ -6,11 +6,11 @@ exports[`GifItem should be match with snapshot 1`] = `
     class="card"
   >
     <img
-      alt="Un titulo"
+      alt="Saitama"
       src="https://localhost/algo.jpg"
     />
     <p>
-      Un titulo
+      Saitama
     </p>
   </div>
 </div>
