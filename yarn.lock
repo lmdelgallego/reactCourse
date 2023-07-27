@@ -1409,7 +1409,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/template@npm:^7.22.5, @babel/template@npm:^7.3.3":
+"@babel/template@npm:^7.22.5, @babel/template@npm:^7.3.3, @babel/template@npm:^7.4.4":
   version: 7.22.5
   resolution: "@babel/template@npm:7.22.5"
   dependencies:
@@ -2651,6 +2651,18 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.4.0 || ^8.0.0-0 <8.0.0
   checksum: d962200f604016a9a09bc9b4aaf60a3db7af876bb65bcefaeac04d44ac9d9ec4037cf24ce117760cc141d7046b6394c7eb0320ba9665cb4a2ee64df2be187c93
+  languageName: node
+  linkType: hard
+
+"babel-plugin-transform-import-meta@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "babel-plugin-transform-import-meta@npm:2.2.0"
+  dependencies:
+    "@babel/template": ^7.4.4
+    tslib: ^2.4.0
+  peerDependencies:
+    "@babel/core": ^7.10.0
+  checksum: 305b0750f957e4df3ce08e0b24359dc55fb789c96477e944d113d259a8292e7bb8d665944e04b5a690c82a8dc23f54b711a85917d80988dffe1e046e1db940ee
   languageName: node
   linkType: hard
 
@@ -3946,6 +3958,7 @@ __metadata:
     "@types/react-dom": ^18.2.7
     "@vitejs/plugin-react": ^4.0.3
     babel-jest: ^29.6.1
+    babel-plugin-transform-import-meta: ^2.2.0
     eslint: ^8.45.0
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
@@ -3956,6 +3969,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     vite: ^4.4.5
+    vite-plugin-environment: ^1.1.3
     whatwg-fetch: ^3.6.17
   languageName: unknown
   linkType: soft
@@ -6710,6 +6724,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:^2.4.0":
+  version: 2.6.1
+  resolution: "tslib@npm:2.6.1"
+  checksum: b0d176d176487905b66ae4d5856647df50e37beea7571c53b8d10ba9222c074b81f1410fb91da13debaf2cbc970663609068bdebafa844ea9d69b146527c38fe
+  languageName: node
+  linkType: hard
+
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0
   resolution: "type-check@npm:0.4.0"
@@ -6903,6 +6924,15 @@ __metadata:
     "@types/istanbul-lib-coverage": ^2.0.1
     convert-source-map: ^1.6.0
   checksum: 2069d59ee46cf8d83b4adfd8a5c1a90834caffa9f675e4360f1157ffc8578ef0f763c8f32d128334424159bb6b01f3876acd39cd13297b2769405a9da241f8d1
+  languageName: node
+  linkType: hard
+
+"vite-plugin-environment@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "vite-plugin-environment@npm:1.1.3"
+  peerDependencies:
+    vite: ">= 2.7"
+  checksum: 1f3a7ed516dfed7c44804f1bf0ced1d55c2dbc4e2dc6e61f79cd30f9f2e19b7b02937d063130d5b8c9707c730f98ea587cc1586ee487954d7a25ff3af4f8875a
   languageName: node
   linkType: hard
 
