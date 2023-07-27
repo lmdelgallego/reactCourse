@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:0.4.3"],\
             ["jest", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:29.6.1"],\
             ["jest-environment-jsdom", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:29.6.1"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:18.2.0"],\
             ["vite", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:4.4.6"],\
@@ -5733,6 +5734,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:0.4.3"],\
             ["jest", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:29.6.1"],\
             ["jest-environment-jsdom", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:29.6.1"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:18.2.0"],\
             ["vite", "virtual:2edf36a4ce48ea482f9750fb5cefd241c0cdd675e2bf1d88c508552eb96bb41480e8b7fd7c242c32de75ef79a496a842ae2432504161eace4d6360add2f02f68#npm:4.4.6"],\
