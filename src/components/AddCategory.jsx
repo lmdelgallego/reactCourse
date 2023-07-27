@@ -1,3 +1,4 @@
+import PropsTypes from 'prop-types';
 import { useState } from "react"
 
 function AddCategory({ onNewCategory }) {
@@ -28,3 +29,7 @@ function AddCategory({ onNewCategory }) {
 }
 
 export default AddCategory
+
+AddCategory.propTypes = {
+  onNewCategory: PropsTypes.func.isRequired
+}
